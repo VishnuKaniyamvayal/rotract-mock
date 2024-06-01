@@ -69,7 +69,7 @@ export default function Login({user}) {
             alignItems: 'center',
           }}
         >
-          <img src={process.env.PUBLIC_URL + '/assets/logo.png'} alt="" srcset="" width={300} />
+          <img style={{background:"#ffff",borderRadius:"10px"}} src={process.env.PUBLIC_URL + '/assets/logo.png'} alt="" srcset="" width={200} />
           <Typography component="h1" variant="h3">
             Sign in
           </Typography>
