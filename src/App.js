@@ -19,6 +19,7 @@ import Grievance from "./scenes/Grievances/Grievances";
 import Resources from "./scenes/Resources/Resources";
 import CabinetDashboard from "./scenes/CabinetDashboard/CabinetDashboard"
 import ClubDashboard from "./scenes/ClubDashboard/ClubDashboard"
+import Profile from "./scenes/Profile/Profile";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -47,6 +48,7 @@ function App() {
             <Route path="manage-users" element={<ManageUsers/>}/>
             <Route path="reporting" element={<Reporting/>}/>
             <Route path="club-profile" element={<ClubProfile/>}/>
+            <Route path="profile" element={<Profile/>}/>
             <Route path="trf" element={<TRF/>}/>
             <Route path="calendar" element={<Calendar/>}/>
             <Route path="grievance" element={<Grievance/>}/>  

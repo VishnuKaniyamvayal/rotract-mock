@@ -21,7 +21,7 @@ const ClubDashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="**DEMO PRODUCT** FINAL PRODUCT's LOOKS AND FUNCTIONALITY MAY DIFFER     ** IF 404 ERROR  - REDIRECT TO LOGIN PAGE BY TYPING /LOGIN AFTER DOMAIN" />
+        <Header title="DASHBOARD" subtitle="Welcome To Club Dashboard" />
       </Box>
 
       {/* GRID & CHARTS */}

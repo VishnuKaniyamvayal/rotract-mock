@@ -51,7 +51,7 @@ const NavBar = () => {
         { type: "tab", title: "Dashboard", to: "/club-dashboard", icon: <AnalyticsIcon /> },
         { type: "tab", title: "Manage members", to: "/manage-members", icon: <GroupIcon /> },
         { type: "tab", title: "Reporting", to: "/reporting", icon: <AssessmentIcon /> },
-        { type: "tab", title: "My Club", to: "/club-profile", icon: <Groups2Icon /> },
+        { type: "tab", title: "Club Profile", to: "/club-profile", icon: <Groups2Icon /> },
         { type: "tab", title: "Calendar", to: "/Calendar", icon: <Groups2Icon /> },
         { type: "tab", title: "TRF", to: "/trf", icon: <Money/> },
         { type: "tab", title: "Grievance", to: "/grievance", icon: <NewReleasesIcon/> },
@@ -66,7 +66,7 @@ const NavBar = () => {
         { type: "tab", title: "Calendar", to: "/calendar", icon: <CalendarMonth /> },
         { type: "tab", title: "Resources", to: "/resources", icon: <CloudCircleIcon /> },
         { type: "tab", title: "TRF", to: "/trf", icon: <Money/> },
-        
+        { type: "tab", title: "Grievance", to: "/grievance", icon: <NewReleasesIcon/> },  
       ])
     }
     // admin

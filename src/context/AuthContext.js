@@ -5,6 +5,7 @@ import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
 import toast from 'react-hot-toast';
 import { Password } from '@mui/icons-material';
+import { useNavigate } from 'react-router-dom';
 
 const AuthContext = createContext();
 const BASE_URL = process.env.REACT_APP_BASE_URL
@@ -26,6 +27,7 @@ const AuthProvider = ({ children }) => {
                     userId: 15,
                     userType: "3", 
                 });
+                
             }
             else if(userEmail == "member@gmail.com"&& userPassword == "123456789")
             {
